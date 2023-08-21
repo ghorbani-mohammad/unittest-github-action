@@ -1,0 +1,28 @@
+name: Python CI
+
+on:
+  pull_request:
+    branches: [master, production, develop]
+
+jobs:
+  python-ci:
+    permissions:
+      id-token: write
+      contents: read
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.8'
+          cache: 'pip'
+
+      - name: Run tests
+        run: |
+          #!/usr/bin/env sh
+          export AWSENV=""
+          python --version
+          cd src/
+          python -m unittest tests/agimex/test.py
