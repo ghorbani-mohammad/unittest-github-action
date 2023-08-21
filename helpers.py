@@ -31,7 +31,7 @@ class TestCSVFiles(unittest.TestCase):
             with open(expected_path, "r", encoding="utf-8") as expected_file:
                 expected_content = [line.strip() for line in expected_file.readlines()]
 
-            print(f'length of input: {len(input_data.split(os.linesep))}')
+            print(f"length of input: {len(input_data)}")
             print(f"length of expected: {len(expected_content)}")
 
 
