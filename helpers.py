@@ -21,8 +21,10 @@ class TestCSVFiles(unittest.TestCase):
             raise ValueError("Number of test files must be even")
 
         for i in range(0, len(test_files), 2):
-            input_path = os.path.join(self.test_dir, test_files[i])
-            expected_path = os.path.join(self.test_dir, test_files[i + 1])
+            input_path = test_files[i+1] if "expected" in test_files[i] else test_files[i]
+            input_path = os.path.join(self.test_dir, input_path)
+            expected_path = test_files[i+1] if "expected" in test_files[i+1] else test_files[i]
+            expected_path = os.path.join(self.test_dir, expected_path)
             print()
             print(f"input-path: {input_path}")
             print(f"expected-path: {expected_path}")
