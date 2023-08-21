@@ -36,10 +36,11 @@ class TestCSVFiles(unittest.TestCase):
             print(f"length of input: {len(input_data)}")
             print(f"length of expected: {len(expected_content)}")
             print()
-            for index, item in enumerate(expected_content):
-                print()
-                print(index)
-                print(item)
+            return
+            # for index, item in enumerate(expected_content):
+            #     print()
+            #     print(index)
+            #     print(item)
 
             print()
             parsed_content = []
