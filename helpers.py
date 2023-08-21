@@ -14,6 +14,8 @@ class TestCSVFiles(unittest.TestCase):
             for f in os.listdir(self.test_dir)
             if f.endswith(".csv") or f.endswith(".json")
         ]
+        print(f"test files: {test_files}")
+        print()
 
         if len(test_files) % 2 != 0:
             raise ValueError("Number of test files must be even")
