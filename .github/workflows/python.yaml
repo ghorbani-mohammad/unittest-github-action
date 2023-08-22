@@ -20,5 +20,7 @@ jobs:
         run: |
           #!/usr/bin/env sh
           export AWSENV=""
+          export LC_ALL="en_US.UTF-8"
+          export LC_CTYPE="en_US.UTF-8"
           python --version
           python -m unittest tests/agimex/test.py
