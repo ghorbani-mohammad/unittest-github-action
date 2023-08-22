@@ -21,4 +21,4 @@ jobs:
           #!/usr/bin/env sh
           export AWSENV=""
           python --version
-          python -m unittest tests/intercourtage/spain/test.py
+          python -m unittest tests/agimex/test.py
