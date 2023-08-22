@@ -22,5 +22,6 @@ jobs:
           export AWSENV=""
           export LC_ALL="en_US.UTF-8"
           export LC_CTYPE="en_US.UTF-8"
+          sudo dpkg-reconfigure locales
           python --version
           python -m unittest tests/agimex/test.py
