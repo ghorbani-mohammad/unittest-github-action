@@ -1,0 +1,23 @@
+report_date,contributor_lineup_reference_id,commodity_name,commodity_specification_codes,volume,unit,origin_code,destination_code,expected_cargo_loading_date,cargo_loading_date,cargo_discharged_date,cargo_status,carrier_id,carrier_name,carrier_status,carrier_dead_weight,export_location,import_location,export_terminal,import_terminal,eta,etb,etd,ata,atb,atd,agent,charterer,shipper,operator,comments
+None,None,MALT,None,8000.0,MT,None,None,2023-04-26T00:00:00+00:00,None,None,None,None,BUNUM INFINITY,None,None,None,BRAZIL,None,None,None,None,None,None,None,None,None,None,None,SOUFFLET,None
+None,None,WHEAT,None,40000.0,MT,None,None,2023-04-26T00:00:00+00:00,None,None,None,None,THOR FORTUNE,None,None,None,MOROCCO,None,None,None,None,None,None,None,None,None,None,None,SOUFFLET,None
+None,None,BARLEY,None,40000.0,MT,None,None,2023-04-26T00:00:00+00:00,None,None,None,None,VITA FUTURE,None,None,None,SINGAPORE,None,None,None,None,None,None,None,None,None,None,None,VITERRA,None
+None,None,WHEAT,None,21000.0,MT,None,None,2023-04-27T00:00:00+00:00,None,None,None,None,VOGUE SOPHIE,None,None,None,AFRICA,None,None,None,None,None,None,None,None,None,None,None,LECUREUR,None
+None,None,MALT,None,8000.0,MT,None,None,2023-04-27T00:00:00+00:00,None,None,None,None,NORDIC BC MUNICH,None,None,None,SOUTH AFRICA,None,None,None,None,None,None,None,None,None,None,None,SOUFFLET,None
+None,None,MALT.BI,None,10000.0,MT,None,None,2023-04-27T00:00:00+00:00,None,None,None,None,ADNAN,None,None,None,TURKEY,None,None,None,None,None,None,None,None,None,None,None,SOUFFLET,None
+None,None,MALT,None,2900.0,MT,None,None,2023-04-28T00:00:00+00:00,None,None,None,None,BOCS SOFI,None,None,None,CAMEROON,None,None,None,None,None,None,None,None,None,None,None,SACOFRINA,None
+None,None,BARLEY,None,50000.0,MT,None,None,2023-04-30T00:00:00+00:00,None,None,None,None,SOND YUNG,None,None,None,CHINA,None,None,None,None,None,None,None,None,None,None,None,BEUZELIN,None
+None,None,BARLEY,None,20000.0,MT,None,None,2023-04-30T00:00:00+00:00,None,None,None,None,VITA FUTURE,None,None,None,SINGAPORE,None,None,None,None,None,None,None,None,None,None,None,VITERRA,None
+None,None,GRAINS,None,5000.0,MT,None,None,2023-04-27T00:00:00+00:00,None,None,None,None,ATLANTIC BORGE,None,None,None,WEST INDIES,None,None,None,None,None,None,None,None,None,None,None,SOUFFLET,None
+None,None,WHEAT,None,6000.0,MT,None,None,2023-04-27T00:00:00+00:00,None,None,None,None,MANISA STAR,None,None,None,PORTUGAL,None,None,None,None,None,None,None,None,None,None,None,SOUFFLET,None
+None,None,WHEAT,None,30000.0,MT,None,None,2023-04-28T00:00:00+00:00,None,None,None,None,ICY BAY,None,None,None,ANGOLA,None,None,None,None,None,None,None,None,None,None,None,SOUFFLET,None
+None,None,WHEAT,None,42000.0,MT,None,None,2023-05-02T00:00:00+00:00,None,None,None,None,ZING ING XI HI,None,None,None,SENEGAL,None,None,None,None,None,None,None,None,None,None,None,EURAFRIQUE,None
+None,None,BARLEY,None,8000.0,MT,None,None,2023-05-06T00:00:00+00:00,None,None,None,None,SOND YUNG,None,None,None,CHINA,None,None,None,None,None,None,None,None,None,None,None,BEUZELIN,None
+None,None,MAIZE,None,3000.0,MT,None,None,2023-05-12T00:00:00+00:00,None,None,None,None,BOCS BREMEN,None,None,None,CAMEROON,None,None,None,None,None,None,None,None,None,None,None,CAVAC,None
+None,None,MAIZE,None,3300.0,MT,None,None,2023-04-29T00:00:00+00:00,None,None,None,None,FRI TIDE,None,None,None,UK,None,None,None,None,None,None,None,None,None,None,None,ENTENTE,None
+None,None,WHEAT,None,10000.0,MT,None,None,2023-04-28T00:00:00+00:00,None,None,None,None,HSL HONOLULU,None,None,None,CHINA,None,None,None,None,None,None,None,None,None,None,None,BUNGE,None
+None,None,WAXY,None,3500.0,MT,None,None,2023-04-27T00:00:00+00:00,None,None,None,None,RICS SPIRIT,None,None,None,NETHERLANDS,None,None,None,None,None,None,None,None,None,None,None,MAISADOUR,None
+None,None,WAXY,None,3500.0,MT,None,None,2023-04-28T00:00:00+00:00,None,None,None,None,EIKBORG,None,None,None,GERMANY,None,None,None,None,None,None,None,None,None,None,None,MAISADOUR,None
+None,None,WHEAT,None,20000.0,MT,None,None,2023-04-27T00:00:00+00:00,None,None,None,None,TRADE,None,None,None,CHINA,None,None,None,None,None,None,None,None,None,None,None,SOUFFLET,None
+None,None,BARLEY,None,20000.0,MT,None,None,2023-04-28T00:00:00+00:00,None,None,None,None,MAINE SOLEIL,None,None,None,CHINA,None,None,None,None,None,None,None,None,None,None,None,SOUFFLET,None
+None,None,BARLEY,None,20000.0,MT,None,None,2023-04-30T00:00:00+00:00,None,None,None,None,VITA FUTURE,None,None,None,SINGAPORE,None,None,None,None,None,None,None,None,None,None,None,SOUFFLET,None

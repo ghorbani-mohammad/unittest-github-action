@@ -20,6 +20,7 @@ jobs:
         run: |
           #!/usr/bin/env sh
           export AWSENV=""
+          sudo apt-get install language-pack-es-base
+          sudo dpkg-reconfigure locales
           python --version
-          cd src/
           python -m unittest tests/agimex/test.py
